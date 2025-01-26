@@ -4,7 +4,7 @@ import os
 from youtube_transcript_api import YouTubeTranscriptApi
 import google.generativeai as genai
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDnbbXykL15pzTW3oJ3eHvVdIFZC-u8Ylc"
+os.environ['GOOGLE_API_KEY'] = " "
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 def get_transcript(video_id):
