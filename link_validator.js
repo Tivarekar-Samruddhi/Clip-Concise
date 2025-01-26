@@ -18,7 +18,7 @@ search_bar.addEventListener("input", () => {
 		videoId = match[1];
         document.getElementById("videoid").value = videoId;
 		search_bar.style.border = "2px green solid";
-		const ytApiKey = "AIzaSyCtYhk0_nPdsEoPNWf8WmJbN2VnwuKBryY";
+		const ytApiKey = " ";
 		$.get(
 			"https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" +
 				videoId +
